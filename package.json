@@ -1,0 +1,8 @@
+{
+  "name": "MeuProjeto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:thiagolunardidevio/MeuProjeto.git",
+  "author": "Thiago Lunardi <thiago@thiagolunardi.net>",
+  "license": "MIT"
+}
