@@ -1,0 +1,3 @@
+[submodule "AutoMapper"]
+	path = AutoMapper
+	url = https://github.com/AutoMapper/AutoMapper.git
