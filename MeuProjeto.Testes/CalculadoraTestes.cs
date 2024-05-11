@@ -4,14 +4,17 @@ namespace MeuProjeto.Testes;
 
 public class CalculadoraTestes
 {
-    [Fact]
-    public void DeveSomarDoisNumeros()
+    [Theory]
+    [InlineData(1, 2, 3)]
+    [InlineData(2, 3, 5)]
+    [InlineData(3, 4, 7)]
+    public void DeveSomarDoisNumeros(int a, int b, int resultadoEsperado)
     {
         // Arrange
         // Act
-        var resultado = Calculadora.Somar(1, 2);
+        var resultado = Calculadora.Somar(a, b);
 
         // Assert
-        Assert.Equal(3, resultado);
+        Assert.Equal(resultadoEsperado, resultado);
     }
 }
