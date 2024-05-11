@@ -8,10 +8,8 @@ public class CalculadoraTestes
     public void DeveSomarDoisNumeros()
     {
         // Arrange
-        var calculadora = new Calculadora();
-
         // Act
-        var resultado = calculadora.Somar(1, 2);
+        var resultado = Calculadora.Somar(1, 2);
 
         // Assert
         Assert.Equal(3, resultado);
