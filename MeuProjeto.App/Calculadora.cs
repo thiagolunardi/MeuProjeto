@@ -1,10 +1,8 @@
-namespace MeuProjeto.App
+namespace MeuProjeto.App;
+public class Calculadora
 {
-    public class Calculadora
+    public int Somar(int a, int b)
     {
-        public int Somar(int a, int b)
-        {
-            return a + b;
-        }
+        return a + b;
     }
 }
