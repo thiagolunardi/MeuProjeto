@@ -1,3 +1,5 @@
+using MeuProjeto.App;
+
 namespace MeuProjeto.Testes;
 
 public class CalculadoraTestes
